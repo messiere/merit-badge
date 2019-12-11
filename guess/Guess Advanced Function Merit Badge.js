@@ -7,7 +7,6 @@ var guess = 0;
 while(again == true && guess != "q"){
   games++;
   var anw = Math.floor(Math.random()*100)+1;
-  //alert(anw);
   console.log(anw)
   var turn = 0;
     while(guess!=anw){
